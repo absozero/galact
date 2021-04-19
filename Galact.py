@@ -62,6 +62,7 @@ RESPONSES = {
         ['Wassup.',
          'What\'s popping.',
          'Yo to you too.'
+         'What\'s up?'
          ],
 
     r'.*\b(bye|cya|ttyl|adios|byr)\b.*':

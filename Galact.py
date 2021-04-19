@@ -61,7 +61,7 @@ RESPONSES = {
     r'.*\b(yo+)\b.*':
         ['Wassup.',
          'What\'s popping.',
-         'Yo to you too.'
+         'Yo to you too.',
          'What\'s up?'
          ],
 
@@ -78,6 +78,7 @@ RESPONSES = {
     r'.*\b(ok|okie|ye)\b.*':
         ['yep',
          'yeah',
+         'yes',
         ],
 
 }

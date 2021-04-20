@@ -56,7 +56,8 @@ RESPONSES = {
 
     r'^\b(nice|noice|sweet|cool|awesome|neat|interesting|(s)?well|good|great)\b.*':
         ['\\1? good to hear.', '\\1? awesome.'
-        'Glad you thought so.'
+        'Glad you thought so.',
+        'Yep!'
         ],
 
     r'.*\b(yo+)\b.*':

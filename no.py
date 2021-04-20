@@ -1,1 +1,0 @@
-rest = print('no')

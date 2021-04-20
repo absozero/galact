@@ -51,7 +51,8 @@ RESPONSES = {
         ['You\'re welcome.',
         'No problem at all.',
         'Cool, nice to help.',
-        'Np, have a great day!'
+        'Np, have a great day!',
+        "Oh, no biggie!"
         ],
 
     r'^\b(nice|noice|sweet|cool|awesome|neat|interesting|(s)?well|good|great)\b.*':

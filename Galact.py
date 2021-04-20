@@ -73,8 +73,8 @@ RESPONSES = {
 
     r'.*\b(stop|pls stop|please stop)\b.*':
         ['Ok, I will stop.(Enter \'quit\' or \'exit\' to exit out of the program)',
-         'Sure, will stop.(Enter \'quit\' or \'exit\' to exit out of the program)'
-         'FINE, I\' ll stop.
+         'Sure, will stop.(Enter \'quit\' or \'exit\' to exit out of the program)',
+         'FINE, I\' ll stop.(Enter \'quit\' or \'exit\' to exit out of the program)'
         ],
 
     r'.*\b(ok|okie|ye)\b.*':

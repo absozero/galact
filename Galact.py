@@ -33,7 +33,10 @@ RESPONSES = {
         ['Hi! I\'m feeling pretty good right now, what about you?',
          'Hey, I\'m just chilling by myself right now.',
          'Hi, I\'m working on a really tough math problem',
-         'Hey, how are you?'],
+         'Hey, how are you?',
+         'What\'s up?'
+         'Hi, how\'s life?'
+         ],
 
     r'^\b(how(\')?s? (it going?|are you))\b.*':
         ['I\'m doing well. How about you?',
@@ -59,6 +62,9 @@ RESPONSES = {
         'Glad you thought so.',
         'Yep!'
         ],
+
+    r'^\b(bruh|uh)\b.*':
+        ['\\1? What do you mean?'],
 
     r'.*\b(yo+)\b.*':
         ['Wassup.',
@@ -121,9 +127,4 @@ class Galact():
 
 Galact() # THE ENTIRE CODE
 
-#Introduction
-'''
-print('enjoy!')
-text = input('test response ')
-name = input('What is your name? ')
-'''
+

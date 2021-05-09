@@ -90,6 +90,14 @@ RESPONSES = {
          'yes',
         ],
 
+    r'.*\b(8ball)\b.*':
+        ['It will happen',
+         'NEVER!',
+         'It just might happen',
+         'You never know...',
+         'Definetly not!',
+         ],
+
 }
 
 # Global Variables Here... keep this to a minimum

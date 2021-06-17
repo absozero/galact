@@ -63,7 +63,7 @@ RESPONSES = {
         'Yep!'
         ],
 
-    r'^\b(bruh|uh)\b.*':
+    r'^\b(bruh|uh|oh)\b.*':
         ['\\1? What do you mean?'],
 
     r'.*\b(yo+)\b.*':
@@ -84,7 +84,7 @@ RESPONSES = {
          'FINE, I\' ll stop.(Enter \'quit\' or \'exit\' to exit out of the program)'
         ],
 
-    r'.*\b(ok|okie|ye)\b.*':
+    r'.*\b(ok|okie|ye|ya|okay)\b.*':
         ['yep',
          'yeah',
          'yes',

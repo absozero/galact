@@ -21,7 +21,7 @@ RESPONSES = {
     r'.*\b(subject(s) favorite|like study|read book(s))\b.*':        
         ['My favorite subject would be science, but I love to animate, draw, and code.',
         'I do like to study if it connects to the real world.',  
-        'I love to read books!' + 
+        'I love to read books! ' + 
         'My favorite is the Harry Potter or the Divergent series.'],
 
     r'.*\b(how(\'s)?s? (it going?|are you))\b.*':
@@ -63,7 +63,7 @@ RESPONSES = {
         'Yep!'
         ],
 
-    r'^\b(bruh|uh|oh)\b.*':
+    r'^\b(bruh|uh|um|oh)\b.*':
         ['\\1? What do you mean?'],
 
     r'.*\b(yo+)\b.*':

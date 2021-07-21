@@ -108,6 +108,7 @@ quit_text = ['quit', 'exit']
 class Galact():
     def __init__(self):
         #never change thing right above
+        #Starts the class and running of and for Galact
         print('Hi, I\'m Galact!')
         print('--A bot made by Absozero.')
         print('enter \'quit\' or \'exit\' to exit the program')

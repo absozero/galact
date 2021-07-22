@@ -3,7 +3,11 @@ A bot that talks to you with typed inputs
 - It runs in the command line
 
 ## How to use
-- Run python file similar to how you would run a hello world script
+```
+cd Bot```
+- Run bot.py file similar to how you would run a hello world script
+```
+python Galact.py```
 - It is meant to run on the CLI, but porting it to a gui would be welcome as well.
 
 ## Some repo info

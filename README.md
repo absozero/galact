@@ -6,7 +6,7 @@ A bot that talks to you with typed inputs
 ```
 cd Bot
 ```
-- Run bot.py file similar to how you would run a hello world script
+- Run Galact.py file similar to how you would run a hello world script
 ```
 python Galact.py
 ```

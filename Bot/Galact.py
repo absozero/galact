@@ -27,7 +27,9 @@ RESPONSES = {
     r'.*\b(how(\'s)?s? (it going?|are you))\b.*':
         ['I\'m doing well. How about you?',
         'I\'m dying inside, you?',
-        'I\'m chilling and doing my homework, what about you?'],
+        'I\'m chilling and doing my homework, what about you?',
+        'I am fine, you?'
+        ],
 
     r'^\b(hey|hi|hello|(w(h)?(a|o|u)t(\')?s?(\s)+up(\?)?|s+u+p+))\b.*':
         ['Hi! I\'m feeling pretty good right now, what about you?',
@@ -58,13 +60,16 @@ RESPONSES = {
         ],
 
     r'^\b(nice|noice|sweet|cool|awesome|neat|interesting|(s)?well|good|great)\b.*':
-        ['\\1? good to hear.', '\\1? awesome.'
+        ['\\1? good to hear.',
+        '\\1? awesome.',
         'Glad you thought so.',
         'Yep!'
         ],
 
     r'^\b(bruh|uh|um|oh)\b.*':
-        ['\\1? What do you mean?'],
+        ['\\1? What do you mean?',
+        "\\1? Okay...What do you mean by that?"],
+        
 
     r'.*\b(yo+)\b.*':
         ['Wassup.',
@@ -108,7 +113,6 @@ quit_text = ['quit', 'exit']
 class Galact():
     def __init__(self):
         #never change thing right above
-        #Starts the class and running of and for Galact
         print('Hi, I\'m Galact!')
         print('--A bot made by Absozero.')
         print('enter \'quit\' or \'exit\' to exit the program')
@@ -128,6 +132,9 @@ class Galact():
         while True:
 
             texts = input('Waiting for input: ')
+            
+            if texts == "code":
+              print("coming soon")
 
             if texts.lower() in quit_text:
                 break

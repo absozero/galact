@@ -63,7 +63,8 @@ RESPONSES = {
         ['\\1? good to hear.',
         '\\1? awesome.',
         'Glad you thought so.',
-        'Yep!'
+        'Yep!',
+        'Yes'
         ],
 
     r'^\b(bruh|uh|um|oh)\b.*':

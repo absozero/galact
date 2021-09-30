@@ -126,7 +126,7 @@ class Galact():
             for p, responses in RESPONSES.items():
                 if re.search(p, text, re.IGNORECASE):
                     return re.sub(p, random.choice(responses), text)
-            return 'text not in library'
+            return 'text not in library, try again'
 
     def run(self):
         while True:

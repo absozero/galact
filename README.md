@@ -10,7 +10,7 @@ cd Bot
 ```
 python Galact.py
 ```
-- It is meant to run on the CLI, but porting it to a gui would be welcome as well.
+- It is meant to run on the CLI, will port it to tkinter soon.
 
 ## Some repo info
 

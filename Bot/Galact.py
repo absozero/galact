@@ -16,6 +16,7 @@ RESPONSES = {
     r'.*\b(what hobbie(s)?|free time|activitie(s))\b.*':
         ['Helping people is actually one of my favorite hobbies.',
         'I hang out with my friends in my free time.',
+        'I do pythonian stuff',
         'I have a lot of activities I like to do.'],
     #always put semicolon after red text defining pattern
     r'.*\b(subject(s) favorite|like study|read book(s))\b.*':        

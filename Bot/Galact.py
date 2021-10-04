@@ -128,6 +128,7 @@ class Galact():
                 if re.search(p, text, re.IGNORECASE):
                     return re.sub(p, random.choice(responses), text)
             return 'text not in library, try again'
+            
 
     def run(self):
         while True:
@@ -135,7 +136,7 @@ class Galact():
             texts = input('Waiting for input: ')
             
             if texts == "code":
-              print("coming soon")
+              print("https://github.com/absozero/Galact")
 
             if texts.lower() in quit_text:
                 break

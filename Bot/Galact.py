@@ -70,7 +70,8 @@ RESPONSES = {
 
     r'^\b(bruh|uh|um|oh)\b.*':
         ['\\1? What do you mean?',
-        "\\1? Okay...What do you mean by that?"],
+        "\\1? Okay...What do you mean by that?"
+        ],
         
 
     r'.*\b(yo+)\b.*':

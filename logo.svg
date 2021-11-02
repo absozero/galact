@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920px"
+   height="1080px"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="drawing.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview893"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.45254834"
+     inkscape:cx="810.96309"
+     inkscape:cy="392.22329"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-text-baseline="false" />
+  <defs
+     id="defs888">
+    <rect
+       x="403.125"
+       y="225"
+       width="1290.625"
+       height="590.625"
+       id="rect6584" />
+    <rect
+       x="453.125"
+       y="318.75"
+       width="1200"
+       height="396.875"
+       id="rect2772" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       id="text2770"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect2772)" />
+    <rect
+       style="fill:#0050dc;fill-rule:evenodd;stroke-width:32.345"
+       id="rect16588"
+       width="1917.9421"
+       height="1079.7361"
+       x="-1.381068"
+       y="-2.9002426"
+       ry="278.125" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#fc941c;fill-opacity:1;stroke:none"
+       x="231.25"
+       y="448.96021"
+       id="text20423"><tspan
+         sodipodi:role="line"
+         id="tspan20421"
+         x="231.25"
+         y="448.96021"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:400px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fc941c;fill-opacity:1">Galact</tspan></text>
+    <g
+       style="fill:#000000"
+       id="g43807"
+       transform="matrix(12.067708,0,0,9.5284243,570.00825,519.39888)">
+      <path
+         d="M 0,0 H 24 V 24 H 0 Z"
+         fill="none"
+         id="path43795" />
+      <path
+         d="M 20,2 H 4 C 2.9,2 2.01,2.9 2.01,4 L 2,22 6,18 h 14 c 1.1,0 2,-0.9 2,-2 V 4 C 22,2.9 21.1,2 20,2 Z M 6,9 h 12 v 2 H 6 Z m 8,5 H 6 v -2 h 8 z M 18,8 H 6 V 6 h 12 z"
+         id="path43797"
+         style="fill:#de00b0;fill-opacity:1" />
+    </g>
+    <g
+       style="fill:#000000"
+       id="g43807-1"
+       transform="matrix(-12.082944,0,0,9.007591,1443.117,659.35102)">
+      <path
+         d="M 0,0 H 24 V 24 H 0 Z"
+         fill="none"
+         id="path43795-0" />
+      <path
+         d="M 20,2 H 4 C 2.9,2 2.01,2.9 2.01,4 L 2,22 6,18 h 14 c 1.1,0 2,-0.9 2,-2 V 4 C 22,2.9 21.1,2 20,2 Z M 6,9 h 12 v 2 H 6 Z m 8,5 H 6 v -2 h 8 z M 18,8 H 6 V 6 h 12 z"
+         id="path43797-0"
+         style="fill:#f0ff00;fill-opacity:1" />
+    </g>
+    <g
+       id="g63030"
+       transform="translate(310.2594,8.3486652)">
+      <g
+         id="g52992"
+         transform="matrix(0.94938127,0,0,0.83620677,-228.24466,155.66751)">
+        <rect
+           style="fill:#10c5d2;fill-opacity:1;fill-rule:evenodd;stroke-width:21.7965"
+           id="rect48097"
+           width="982.21552"
+           height="128.1631"
+           x="429.78833"
+           y="879.46405"
+           ry="43.089321" />
+        <g
+           id="g52987">
+          <rect
+             style="fill:#0050dc;fill-opacity:1;fill-rule:evenodd;stroke-width:24.0844"
+             id="rect49044"
+             width="950.42346"
+             height="90.106735"
+             x="444.67816"
+             y="898.73785"
+             ry="45.053371" />
+        </g>
+      </g>
+      <path
+         style="fill:#10c5d2;fill-opacity:1;fill-rule:evenodd;stroke-width:8.51427"
+         d="m 1193.4501,992.71239 c -1.4629,-0.72109 -0.7334,0.70887 -11.0188,-21.5973 -3.9077,-8.47459 -7.5175,-16.22264 -8.0218,-17.21789 l -0.917,-1.80954 -20.2839,-8.67384 c -12.3149,-5.26609 -20.619,-9.03047 -21.1368,-9.58157 -1.3144,-1.39916 -1.4536,-3.29319 -0.3619,-4.926 0.8893,-1.33016 1.39,-1.52739 18.4888,-7.28257 9.6661,-3.25347 30.6704,-10.35602 46.6763,-15.78344 16.0059,-5.42743 29.9054,-9.94345 30.8878,-10.03561 1.5018,-0.14088 1.9818,-0.003 3.0141,0.86558 2.4521,2.0633 3.2164,-0.4846 -14.3752,47.91898 -8.8507,24.3529 -16.4101,45.01259 -16.7986,45.91042 -1.1332,2.61843 -3.5597,3.49107 -6.153,2.21278 z m 3.1707,-19.56785 c 7.6647,-20.92544 20.5333,-56.51131 20.4615,-56.58303 -0.084,-0.0844 -27.9518,26.59513 -32.6716,31.27896 l -2.1128,2.09667 6.2143,13.50137 c 3.4179,7.42575 6.3267,13.50435 6.4639,13.50799 0.1373,0.004 0.8774,-1.70724 1.6447,-3.80196 z m -4.6953,-44.49437 c 8.6305,-8.30491 16.4827,-15.86999 17.4495,-16.81129 l 1.7578,-1.71145 -31.7173,10.65894 c -17.4446,5.86242 -31.595,10.77978 -31.4453,10.92746 0.326,0.32186 27.4744,12.00445 27.9397,12.02315 0.1782,0.007 7.3852,-6.7819 16.0156,-15.08681 z"
+         id="path62906" />
+    </g>
+    <g
+       style="fill:none;stroke:#0eec03;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="g63124"
+       transform="matrix(12.226685,0,0,10.292417,875.51509,-39.201602)">
+      <polyline
+         points="4 17 10 11 4 5"
+         id="polyline63112"
+         style="stroke:#0eec03;stroke-opacity:1" />
+      <line
+         x1="12"
+         y1="19"
+         x2="20"
+         y2="19"
+         id="line63114"
+         style="stroke:#0eec03;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

@@ -1,7 +1,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/absozero/galact">
-    <img src="images/logo.svg" alt="Logo" width="1280" height="720">
+    <img src="logo.svg" alt="Logo" width="426" height="240">
   </a>
 
 # Galact

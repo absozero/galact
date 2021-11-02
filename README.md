@@ -1,4 +1,4 @@
-<br />
+
 <div align="center">
   <a href="https://github.com/absozero/galact">
     <img src="logo.svg" alt="Logo" width="426" height="240">
@@ -6,7 +6,8 @@
 
 # Galact
 A bot that talks to you with typed inputs
-- It runs in the command line
+Runs in the command line
+</div>
 
 ## How to use
 ```

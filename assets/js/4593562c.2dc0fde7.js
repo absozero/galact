@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgalact_docs=self.webpackChunkgalact_docs||[]).push([[138],{5963:function(a){a.exports=JSON.parse('{"allTagsPath":"/Galact/blog/tags","slug":"/Galact/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/Galact/blog/tags/docusaurus"}')}}]);

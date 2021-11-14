@@ -130,7 +130,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
+/.docusaurus
 # pytype static type analyzer
 .pytype/
 .project
@@ -143,3 +143,4 @@ cython_debug/
 #Holds sensitive info that the bot needs to run: Token and channel ID's
 info.py
 
+node_modules

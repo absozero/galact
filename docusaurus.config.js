@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Galact-docs',
-  tagline: 'Galact is awesome',
+  tagline: 'Get to galaxies with Galact!',
   url: 'https://absozero.github.io',
   baseUrl: '/Galact/',
   onBrokenLinks: 'throw',

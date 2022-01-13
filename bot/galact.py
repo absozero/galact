@@ -117,7 +117,7 @@ class Galact():
     def __init__(self):
         #never change thing right above
         print('Hi, I\'m Galact!')
-        print('--A bot made by Absozero.')
+        print('A bot made by Absozero, using re.')
         print('enter \'quit\' or \'exit\' to exit the program')
 
         self.run()

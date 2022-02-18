@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgalact_docs=self.webpackChunkgalact_docs||[]).push([[53],{1109:function(a){a.exports=JSON.parse('{"pluginId":"default","version":"current","label":"Next","banner":null,"badge":false,"className":"docs-version-current","isLast":true,"docsSidebars":{"tutorialSidebar":[{"type":"link","label":"Installation","href":"/Galact/docs/installation"}]}}')}}]);

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://absozero.github.io/Galact/blog</id>
+    <id>https://absozero.github.io/galact/blog</id>
     <title>Galact-docs Blog</title>
     <updated>2021-11-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://absozero.github.io/Galact/blog"/>
+    <link rel="alternate" href="https://absozero.github.io/galact/blog"/>
     <subtitle>Galact-docs Blog</subtitle>
-    <icon>https://absozero.github.io/Galact/img/favicon.ico</icon>
+    <icon>https://absozero.github.io/galact/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Releasing docs website using Docusaurus]]></title>
         <id>release-docs</id>
-        <link href="https://absozero.github.io/Galact/blog/release-docs"/>
+        <link href="https://absozero.github.io/galact/blog/release-docs"/>
         <updated>2021-11-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[When I started Galact, I knew that I had to make good documentation to help users]]></summary>
         <content type="html"><![CDATA[<p>When I started Galact, I knew that I had to make good documentation to help users

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Galact-docs Blog</title>
-        <link>https://absozero.github.io/Galact/blog</link>
+        <link>https://absozero.github.io/galact/blog</link>
         <description>Galact-docs Blog</description>
         <lastBuildDate>Sun, 28 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Releasing docs website using Docusaurus]]></title>
-            <link>https://absozero.github.io/Galact/blog/release-docs</link>
+            <link>https://absozero.github.io/galact/blog/release-docs</link>
             <guid>release-docs</guid>
             <pubDate>Sun, 28 Nov 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[When I started Galact, I knew that I had to make good documentation to help users]]></description>

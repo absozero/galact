@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgalact_docs=self.webpackChunkgalact_docs||[]).push([[261],{2486:function(a){a.exports=JSON.parse('{"allTagsPath":"/Galact/blog/tags","slug":"/Galact/blog/tags/documentation","name":"Documentation","count":1,"permalink":"/Galact/blog/tags/documentation"}')}}]);

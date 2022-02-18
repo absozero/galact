@@ -9,12 +9,12 @@ const config = {
   title: 'Galact-docs',
   tagline: 'Get to galaxies with Galact!',
   url: 'https://absozero.github.io',
-  baseUrl: '/Galact/',
+  baseUrl: '/galact/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'absozero', // Usually your GitHub org/user name.
-  projectName: 'Galact', // Usually your repo name.
+  projectName: 'galact', // Usually your repo name.
 
   presets: [
     [
@@ -24,13 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           
-          editUrl: 'https://github.com/absozero/Galact/tree/documentation/',
+          editUrl: 'https://github.com/absozero/galact/tree/documentation/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/absozero/Galact/tree/documentation/',
+            'https://github.com/absozero/galact/tree/documentation/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -91,7 +91,7 @@ const config = {
             items: [
               {
                 label: 'Github Repo',
-                href: 'https://github.com/absozero/Galact',
+                href: 'https://github.com/absozero/galact',
               },
             ],
           },
@@ -104,7 +104,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/absozero/galact',
               },
             ],
           },

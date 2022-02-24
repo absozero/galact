@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+/.docusaurus
 
 # C extensions
 *.so
@@ -70,6 +71,7 @@ instance/
 
 # Sphinx documentation
 docs/_build/
+.yarn/
 
 # PyBuilder
 .pybuilder/
@@ -142,5 +144,4 @@ cython_debug/
 
 #Holds sensitive info that the bot needs to run: Token and channel ID's
 info.py
-
 node_modules

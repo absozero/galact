@@ -1,4 +1,14 @@
 
+<div align="center">
+  <a href="https://github.com/absozero/galact">
+    <img src="logo.svg" alt="Logo" width="426" height="240">
+  </a>
+
+# Galact
+A bot that talks to you with typed inputs
+Runs in the command line
+</div>
+
 <div  id="top"></div>
 
 <!--

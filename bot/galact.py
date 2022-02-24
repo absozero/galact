@@ -16,6 +16,7 @@ RESPONSES = {
     r'.*\b(what hobbie(s)?|free time|activitie(s))\b.*':
         ['Helping people is actually one of my favorite hobbies.',
         'I hang out with my friends in my free time.',
+        'I do pythonian stuff',
         'I have a lot of activities I like to do.'],
     #always put semicolon after red text defining pattern
     r'.*\b(subject(s) favorite|like study|read book(s))\b.*':        
@@ -69,7 +70,8 @@ RESPONSES = {
 
     r'^\b(bruh|uh|um|oh)\b.*':
         ['\\1? What do you mean?',
-        "\\1? Okay...What do you mean by that?"],
+        "\\1? Okay...What do you mean by that?"
+        ],
         
 
     r'.*\b(yo+)\b.*':
@@ -115,7 +117,7 @@ class Galact():
     def __init__(self):
         #never change thing right above
         print('Hi, I\'m Galact!')
-        print('--A bot made by Absozero.')
+        print('A bot made by Absozero, using re.')
         print('enter \'quit\' or \'exit\' to exit the program')
 
         self.run()

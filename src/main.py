@@ -4,6 +4,8 @@ import random
 import argparse
 import sys
 
+from prompt_toolkit import prompt, print_formatted_text, ANSI
+
 parser = argparse.ArgumentParser()
 subparsers = parser.add_subparsers()
 
@@ -122,7 +124,8 @@ quit_text = ['quit', 'exit']
 class Galact():
     def __init__(self):
         #never change thing right above
-        print('Hi, I\'m Galact!')
+        
+        print_formatted_text(ANSI('\x1b[31mHello!,\x1b[32m I am Galact'))
         print('A bot made by Absozero, using re.')
         print('enter \'quit\' or \'exit\' to exit the program')
 
@@ -141,7 +144,7 @@ class Galact():
     def run(self):
         while True:
 
-            texts = input('Send message: ')
+            texts = prompt('Send message: ')
             
             if texts == "code":
               print("https://github.com/absozero/Galact")

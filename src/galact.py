@@ -1,5 +1,10 @@
 import re
 import random
+import argparse
+import sys
+
+parser = argparse.ArgumentParser()
+subparsers = parser.add_subparsers()
 
 RESPONSES = {
     r'.*\b(joke(s)?|funny|make me laugh)\b.*':
@@ -145,6 +150,12 @@ class Galact():
 
             print(self.match(texts))
 
-Galact() # THE ENTIRE CODE
+if len(sys.argv) <= 1:
+    sys.argv.append('--help')
 
+parser_galact = subparsers.add_parser('run', help='Run galact on cli')
+parser_galact.set_defaults(func=Galact)
+
+parsed = parser.parse_args()
+parsed.func()
 

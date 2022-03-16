@@ -1,4 +1,4 @@
-
+import signal
 import re
 import random
 import argparse
@@ -173,7 +173,12 @@ parsed = parser.parse_args()
 if len(sys.argv) <= 1:
     sys.argv.append("--help")
 
-def main():
-    parser.parse_args()
+sys.tracebacklimit = -1
 
-main()
+try:
+    def main():
+        gal = parser.parse_args()
+        gal.func()
+
+except KeyboardInterrupt:
+    sys.exit(0)

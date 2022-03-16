@@ -1,4 +1,3 @@
-import signal
 import re
 import random
 import argparse
@@ -173,12 +172,11 @@ parsed = parser.parse_args()
 if len(sys.argv) <= 1:
     sys.argv.append("--help")
 
-sys.tracebacklimit = -1
 
 try:
     def main():
         gal = parser.parse_args()
         gal.func()
-
+    main()
 except KeyboardInterrupt:
-    sys.exit(0)
+    sys.exit("Exited Galact with the keyboard shortcut")

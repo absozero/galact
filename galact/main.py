@@ -124,7 +124,7 @@ class Galact():
     def __init__(self):
         #never change thing right above
         
-        print_formatted_text(ANSI('\x1b[31mHello!,\x1b[32m I am Galact'))
+        print_formatted_text(ANSI('\x1b[34mHello!,\x1b[32m I am Galact'))
         print('A bot made by Absozero, using re.')
         print('enter \'quit\' or \'exit\' to exit the program')
 
@@ -143,15 +143,15 @@ class Galact():
     def run(self):
         while True:
 
-            texts = prompt('Send message: ')
+            texts = prompt(ANSI('\x1b[35mSend message: '))
             
             if texts == "code":
               print("https://github.com/absozero/Galact")
 
             if texts.lower() in quit_text:
-                break
+                sys.exit(print_formatted_text(ANSI('\x1b[31mExited Galact with the appropriate phrase')))
 
-            print("Galact says: " + self.match(texts))
+            print_formatted_text(ANSI('\x1b[36mGalact says:'), self.match(texts))
 
 
 def about():
@@ -179,4 +179,4 @@ try:
         gal.func()
     main()
 except KeyboardInterrupt:
-    sys.exit("Exited Galact with the keyboard shortcut")
+    sys.exit(print_formatted_text(ANSI('\x1b[31mExited Galact with the keyboard shortcut')))

@@ -9,5 +9,6 @@ prompt-toolkit = "*"
 [dev-packages]
 pyinstaller = "*"
 micropipenv = "*"
+wheel = "*"
 
 [requires]

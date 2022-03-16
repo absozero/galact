@@ -154,9 +154,6 @@ class Galact():
 
             print("Galact says: " + self.match(texts))
 
-if len(sys.argv) <= 1:
-    Galact()
-
 
 def about():
     print('''
@@ -172,7 +169,11 @@ parser_abt.set_defaults(func=about)
 
 parsed = parser.parse_args()
 
-try:
-    parsed.func()
-except Exception:
-    pass
+
+if len(sys.argv) <= 1:
+    sys.argv.append("--help")
+
+def main():
+    parser.parse_args()
+
+main()

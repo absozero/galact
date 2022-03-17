@@ -177,6 +177,5 @@ try:
     def main():
         gal = parser.parse_args()
         gal.func()
-    main()
 except KeyboardInterrupt:
     sys.exit(print_formatted_text(ANSI('\x1b[31mExited Galact with the keyboard shortcut')))

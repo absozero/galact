@@ -4,9 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pyinstaller = "*"
+prompt-toolkit = "*"
 
 [dev-packages]
+pyinstaller = "*"
+micropipenv = "*"
+wheel = "*"
 
 [requires]
-python_version = "3.10"

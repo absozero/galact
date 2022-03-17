@@ -132,7 +132,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
+/.docusaurus
 # pytype static type analyzer
 .pytype/
 .project

@@ -1,5 +1,12 @@
 import re
 import random
+import argparse
+import sys
+
+from prompt_toolkit import prompt, print_formatted_text, ANSI
+
+parser = argparse.ArgumentParser()
+subparsers = parser.add_subparsers()
 
 RESPONSES = {
     r'.*\b(joke(s)?|funny|make me laugh)\b.*':
@@ -116,7 +123,8 @@ quit_text = ['quit', 'exit']
 class Galact():
     def __init__(self):
         #never change thing right above
-        print('Hi, I\'m Galact!')
+        
+        print_formatted_text(ANSI('\x1b[34mHello!,\x1b[32m I am Galact'))
         print('A bot made by Absozero, using re.')
         print('enter \'quit\' or \'exit\' to exit the program')
 
@@ -129,22 +137,45 @@ class Galact():
             for p, responses in RESPONSES.items():
                 if re.search(p, text, re.IGNORECASE):
                     return re.sub(p, random.choice(responses), text)
-            return 'text not in library, try again'
+            return 'text unrecognized, try again'
             
 
     def run(self):
         while True:
 
-            texts = input('Waiting for input: ')
+            texts = prompt(ANSI('\x1b[35mSend message: '))
             
             if texts == "code":
               print("https://github.com/absozero/Galact")
 
             if texts.lower() in quit_text:
-                break
+                sys.exit(print_formatted_text(ANSI('\x1b[31mExited Galact with the appropriate phrase')))
 
-            print(self.match(texts))
-
-Galact() # THE ENTIRE CODE
+            print_formatted_text(ANSI('\x1b[36mGalact says:'), self.match(texts))
 
 
+def about():
+    print('''
+        This project was made in order to put an ai, a speaking one, into the command line using regular expressions, and since this project had ideas from all sides of the galaxy, the project is called Galact.
+            ''')
+
+parser_galact = subparsers.add_parser('run', help='Run galact on cli')
+parser_galact.set_defaults(func=Galact)
+
+parser_abt = subparsers.add_parser('about', help='Give info about Galact.')
+parser_abt.set_defaults(func=about)
+
+
+parsed = parser.parse_args()
+
+
+if len(sys.argv) <= 1:
+    sys.argv.append("--help")
+
+
+try:
+    def main():
+        gal = parser.parse_args()
+        gal.func()
+except KeyboardInterrupt:
+    sys.exit(print_formatted_text(ANSI('\x1b[31mExited Galact with the keyboard shortcut')))

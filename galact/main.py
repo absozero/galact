@@ -156,7 +156,7 @@ class Galact():
 
 def about():
     print('''
-        This porject was made in order to put an ai, a speaking one, into the command line using regular expressions, and since this could be considered a galctical achievement, the projectis called Galact.
+        This project was made in order to put an ai, a speaking one, into the command line using regular expressions, and since this project had ideas from all sides of the galaxy, the project is called Galact.
             ''')
 
 parser_galact = subparsers.add_parser('run', help='Run galact on cli')

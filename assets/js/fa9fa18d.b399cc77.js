@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgalact_docs=self.webpackChunkgalact_docs||[]).push([[125],{8448:function(a){a.exports=JSON.parse('{"allTagsPath":"/galact/blog/tags","slug":"/galact/blog/tags/cli","name":"CLI","count":1,"permalink":"/galact/blog/tags/cli"}')}}]);

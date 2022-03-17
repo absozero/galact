@@ -4,9 +4,19 @@
         <title>Galact-docs Blog</title>
         <link>https://absozero.github.io/galact/blog</link>
         <description>Galact-docs Blog</description>
-        <lastBuildDate>Sun, 28 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Mar 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Migrating Galact to a cli structure for scalability]]></title>
+            <link>https://absozero.github.io/galact/blog/setup-cli</link>
+            <guid>setup-cli</guid>
+            <pubDate>Wed, 16 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The whole repo has now been migrated to a comman line setup. This was to improve scalability, improve portability, as well as to make the project migrate from a more one file -type structure to a more common and usable format that would help the app have arguments and only a requirement for pip and python.]]></description>
+            <content:encoded><![CDATA[<p>The whole repo has now been migrated to a comman line setup. This was to improve scalability, improve portability, as well as to make the project migrate from a more <strong>one file -type</strong> structure to a more common and usable format that would help the app have arguments and only a requirement for pip and python.</p><p>This new format means that instead of calling <code>python bot/galact.py</code> you can just install the package directly using:</p><div class="tabs-container"><ul role="tablist" aria-orientation="horizontal" class="tabs"><li role="tab" tabindex="0" aria-selected="true" class="tabs__item tabItem_LplD tabs__item--active">stable</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LplD">unstable</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LplD">pipenv</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LplD">When on pypi(cannot as such)</li></ul><div class="margin-vert--md"><div role="tabpanel">pip install git+https://github.com/absozero/galact.git</div><div role="tabpanel" hidden="">pip install git+https://github.com/absozero/galact.git@Testing</div><div role="tabpanel" hidden="">pipenv install git+https://github.com/absozero/galact.git</div><div role="tabpanel" hidden="">pip install galact</div></div></div>pipenv install -e git+ssh://git@github.com/shearichard/behave-web-api.git#egg=behave-web-api And then you can run the command and open the help menu with this in the command line: ```bash galact ``` - The main branch is stable and you will get code that most likely will not break, there is unstable code for installation, and the final one is how the install command would look when the command is on pypi<p>This should be temporary until the package is published to <a href="https://pypi.org" target="_blank" rel="noopener noreferrer">PyPi</a>, where then the package can just be installed by name.</p>]]></content:encoded>
+            <category>Galact</category>
+            <category>CLI</category>
+        </item>
         <item>
             <title><![CDATA[Releasing docs website using Docusaurus]]></title>
             <link>https://absozero.github.io/galact/blog/release-docs</link>
@@ -17,6 +27,8 @@
 understand the project, and I knew that I could just make a wiki on the github wiki and
 be done and move on. But I also knew that I could do better and decided to make a website for the
 piece of software, and then I eventually landed on Docusaurus. It was like a CMS but with similar capabilities and less difficulties.</p><p>So I decided to set up a website for Galact. This is what you are seeing right now.</p>]]></content:encoded>
+            <category>Galact</category>
+            <category>Documentation</category>
         </item>
     </channel>
 </rss>

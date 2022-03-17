@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgalact_docs=self.webpackChunkgalact_docs||[]).push([[535],{5641:function(t){t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Migrating Galact to a cli structure for scalability","permalink":"/galact/blog/setup-cli"},{"title":"Releasing docs website using Docusaurus","permalink":"/galact/blog/release-docs"}]}')}}]);

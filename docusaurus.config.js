@@ -45,12 +45,12 @@ const config = {
         title: 'My Site',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.png',
+          src: 'img/logo.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'installation',
+            docId: 'intro',
             position: 'left',
             label: 'Docs',
           },
@@ -68,8 +68,9 @@ const config = {
           },
           {
             href: 'https://github.com/absozero/galact',
-            label: 'GitHub',
             position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
           },
           
         ],
@@ -81,8 +82,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Instalation',
-                to: '/docs/installation',
+                label: 'Docs',
+                to: '/docs/intro',
               },
             ],
           },

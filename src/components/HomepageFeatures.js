@@ -8,9 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/logo.svg').default,
     description: (
       <>
-        Galact is extremely easy to install and use and so far only uses
-        packages provided by a default python install so nothing additional
-        needs to be installed.
+        Galact is very easy to install and can be installed with pip, works like most other cli apps.
       </>
     ),
   },

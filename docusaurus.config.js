@@ -101,6 +101,10 @@ const config = {
                 href: 'https://github.com/absozero/galact',
                                 
               },
+              {
+                  label: 'Absozero',
+                  href: 'https://absozero.github.io',
+              },
             ],
           },
           {

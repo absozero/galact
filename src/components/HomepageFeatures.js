@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../img/ai.svg').default,
     description: (
       <>
-        Galact is an ai, and works as a human-interactable abject when used. It can respond to humans in a fashion similar to human spech of moderen times.
+        Galact is an ai, and works as a human-interactable abject when used. It can respond to humans in a fashion similar to human speech of modern times.
       </>
     ),
   },

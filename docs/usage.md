@@ -24,4 +24,4 @@ options:
 
 After that, if you run `galact run` you enter a prompt with the actual bot running.
 
-If you run `galact -h`, you get help info for the bot, such as commands and what they do.
+If you run `galact -h`, you get help info for the bot, such as commands and what they do. Also, when running `galact about`, you get general help imformation.

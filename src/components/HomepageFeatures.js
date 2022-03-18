@@ -4,11 +4,30 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
+    title: 'AI',
+    Svg: require('../../img/ai.svg').default,
+    description: (
+      <>
+        Galact is an ai, and works as a human-interactable abject when used. It can respond to humans in a fashion similar to human spech of moderen times.
+      </>
+    ),
+  },
+  {
     title: 'Easy to Use',
     Svg: require('../../static/img/logo.svg').default,
     description: (
       <>
-        Galact is very easy to install and can be installed with pip, works like most other cli apps.
+        Galact is very easy to install and can be installed with pip, works like most other cli apps. It has a built in argument parser and works extensively with the use of argparse.
+      </>
+    ),
+  },
+  {
+    title: 'CLI-Infused',
+    Svg: require('../../static/img/cli.svg').default,
+    description: (
+      <>
+        Galact works very well on a command line and can be easily used by anybody, due to simplistic installment and 
+        easy and fast usage. It is even being planned to port to a gui! 
       </>
     ),
   },

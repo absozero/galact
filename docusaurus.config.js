@@ -15,6 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'absozero', // Usually your GitHub org/user name.
   projectName: 'galact', // Usually your repo name.
+  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
 
   presets: [
     [
@@ -41,10 +42,14 @@ const config = {
 
   themeConfig:
     ({
+    colorMode: {
+        defaultMode: 'light',
+    },
       navbar: {
-        title: 'My Site',
+        hideOnScroll: true,
+        title: 'Galact',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Galact Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -63,13 +68,14 @@ const config = {
 
           {
             to: '/about/about',
-            position: 'left',
+            position: 'right',
             label: 'About'
           },
           {
             href: 'https://github.com/absozero/galact',
             position: 'right',
-            className: 'header-github-link',
+            label: 'GitHub',
+            className: 'header-item-github',
             'aria-label': 'GitHub repository',
           },
           
@@ -93,6 +99,7 @@ const config = {
               {
                 label: 'Github Repo',
                 href: 'https://github.com/absozero/galact',
+                                
               },
             ],
           },

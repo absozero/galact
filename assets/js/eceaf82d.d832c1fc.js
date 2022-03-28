@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgalact_docs=self.webpackChunkgalact_docs||[]).push([[142],{8756:function(t){t.exports=JSON.parse('{"permalink":"/galact/blog/tags/documentation","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

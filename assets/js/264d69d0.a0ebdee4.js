@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgalact_docs=self.webpackChunkgalact_docs||[]).push([[254],{7433:function(l){l.exports=JSON.parse('{"permalink":"/galact/blog/tags/cli","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

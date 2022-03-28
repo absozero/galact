@@ -12,12 +12,12 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">Galact</h1>
-        <p className="hero__subtitle">Yet another amazing Python chatbot.</p>
+        <p className="hero__subtitle">An Open Source chatbot, in Python.</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            To the docs!
+            Docs!
           </Link>
         </div>
       </div>

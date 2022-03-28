@@ -4,11 +4,11 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'AI',
-    Svg: require('../../img/ai.svg').default,
+    title: 'Open source',
+    Svg: require('../../img/opensource.svg').default,
     description: (
       <>
-        Galact is an ai, and works as a human-interactable abject when used. It can respond to humans in a fashion similar to human speech of modern times.
+        Galact is completely free and open source. This makes the development process much more transparent, and it is easier to contribute to and improve the project faster. Its code can be accessed at <a href="https://github.com/absozero/galact">the github!</a>
       </>
     ),
   },

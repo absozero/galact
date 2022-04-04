@@ -10,5 +10,7 @@ prompt-toolkit = "*"
 pyinstaller = "*"
 micropipenv = "*"
 wheel = "*"
+pytest = "*"
+pylint = "*"
 
 [requires]

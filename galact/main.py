@@ -3,7 +3,10 @@ import random
 import argparse
 import sys
 
-from prompt_toolkit import prompt, print_formatted_text, ANSI
+import rich
+from rich.console import Console
+
+console = Console()
 
 parser = argparse.ArgumentParser()
 subparsers = parser.add_subparsers()
@@ -15,9 +18,10 @@ RESPONSES = {
         'I don\'t know how to make you laugh, but I shall still try'],
 
     r'.*\b(what homework|work)\b.*':
-        ['Just a bunch of quantum physics. Ya know, connect the dots here and watch the world blow. Fun stuff',
+        ['Just a bunch of quantum physics. Ya know, connect the dots here and there',
+        'Watching the world blow up. Fun stuff',
         'Yo hablar mucho espanol(just kidding), I know absolutely no Spanish :(',
-        'Some work from school and stuff. ' +
+        'Some work from school and stuff. ',
         'You know, the usual.'],
 #always put a comma after regular brackets in this type of code 
     r'.*\b(what hobbie(s)?|free time|activitie(s))\b.*':
@@ -124,9 +128,9 @@ class Galact():
     def __init__(self):
         #never change thing right above
         
-        print_formatted_text(ANSI('\x1b[34mHello!,\x1b[32m I am Galact'))
-        print('A bot made by Absozero, using re.')
-        print('enter \'quit\' or \'exit\' to exit the program')
+        console.print('Hello!:wave:, I am [bold cyan]Galact[/bold cyan]')
+        console.print('[underline]A bot[/] made by [green]Abso[/][blue]zero[/], using re.')
+        console.print('enter [underline][bold red]\'quit\' or \'exit\'[/underline], [/bold red] to exit the program')
 
         self.run()
         
@@ -143,19 +147,20 @@ class Galact():
     def run(self):
         while True:
 
-            texts = prompt(ANSI('\x1b[35mSend message: '))
+            texts = console.input('[italic purple]Send message: ')
             
             if texts == "code":
-              print("https://github.com/absozero/Galact")
+              console.print("[bold italic link=https://github.com/absozero/Galact]https://github.com/absozero/Galact")
 
             if texts.lower() in quit_text:
-                sys.exit(print_formatted_text(ANSI('\x1b[31mExited Galact with the appropriate phrase')))
+                sys.exit(console.print('[bold red]Exited Galact with the appropriate phrase'))
 
-            print_formatted_text(ANSI('\x1b[36mGalact says:'), self.match(texts))
+            else:
+                console.print('[bold green]Galact says:', self.match(texts))
 
 
 def about():
-    print('''
+    console.print('''[bold light cyan]
         This project was made in order to put an ai, a speaking one, into the command line using regular expressions, and since this project had ideas from all sides of the galaxy, the project is called Galact.
             ''')
 
@@ -178,4 +183,4 @@ try:
         gal = parser.parse_args()
         gal.func()
 except KeyboardInterrupt:
-    sys.exit(print_formatted_text(ANSI('\x1b[31mExited Galact with the keyboard shortcut')))
+    print('Exited Galact with the appropriate key combo')

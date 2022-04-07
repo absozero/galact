@@ -2,7 +2,7 @@ import re
 import random
 import argparse
 import sys
-
+import signal
 import rich
 from rich.console import Console
 
@@ -150,7 +150,7 @@ class Galact():
             texts = console.input('[italic purple]Send message: ')
             
             if texts == "code":
-              console.print("[bold italic link=https://github.com/absozero/Galact]https://github.com/absozero/Galact")
+                console.print("[bold italic link=https://github.com/absozero/Galact]https://github.com/absozero/galact :man_technologist_medium_skin_tone:")
 
             if texts.lower() in quit_text:
                 sys.exit(console.print('[bold red]Exited Galact with the appropriate phrase'))
@@ -174,13 +174,19 @@ parser_abt.set_defaults(func=about)
 parsed = parser.parse_args()
 
 
+
 if len(sys.argv) <= 1:
     sys.argv.append("--help")
 
-
-try:
-    def main():
+def main():
+    try:
         gal = parser.parse_args()
         gal.func()
-except KeyboardInterrupt:
-    print('Exited Galact with the appropriate key combo')
+    except KeyboardInterrupt:
+        console.print('[bold red]Exited Galact with the appropriate phrase')
+'''
+def sigint_handler(signal, frame):
+    console.print('[bold red]Exited Galact with key combo')
+    sys.exit(0)
+signal.signal(signal.SIGINT, sigint_handler)
+'''

@@ -1,4 +1,5 @@
 import re
+import os
 import time
 import random
 import argparse
@@ -7,6 +8,8 @@ import signal
 import rich
 from rich.console import Console
 from rich.progress import track
+from rich.traceback import install
+install()
 
 console = Console()
 
@@ -184,12 +187,12 @@ def about():
         time.sleep(0.007)
     console.print('[underline][bold blue]This project was made in order to put an ai, a speaking one, into the command line using regular expressions, and since this project had ideas from all sides of the galaxy, the project is called Galact.')
 
+
 parser_galact = subparsers.add_parser('run', help='Run galact on cli')
 parser_galact.set_defaults(func=Galact)
 
 parser_abt = subparsers.add_parser('about', help='Give info about Galact.')
 parser_abt.set_defaults(func=about)
-
 
 parsed = parser.parse_args()
 

@@ -83,19 +83,18 @@ def about():
         time.sleep(0.007)
     console.print('[underline][bold blue]This project was made in order to put an ai, a speaking one, into the command line using regular expressions, and since this project had ideas from all sides of the galaxy, the project is called Galact.')
 
-def readme():
-    try:
-        os.chdir(os.path.join(os.path.dirname(__file__)))
-        f = open('README.md', 'r')
-        mark = f.read()
-        console.print(Markdown(mark))
-    except FileNotFoundError:
+def readme(): 
+    os.chdir(os.path.join(os.path.dirname(__file__)))
+    f = open('README.md', 'r')
+    mark = f.read()
+    console.print(Markdown(mark))
+    '''except FileNotFoundError:
         try:
             md = Markdown(readmd)
             console.print(md)
         except FileNotFoundError:
             console.print('[bold red]The readme file does not exist at the current location, so is therefore unreadable. Try cd\'ing into the galact root directory.')
-
+'''
 
 
 parser_galact = subparsers.add_parser('run', help='Run galact on cli')

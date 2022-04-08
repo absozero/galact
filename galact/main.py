@@ -88,13 +88,6 @@ def readme():
     f = open('README.md', 'r')
     mark = f.read()
     console.print(Markdown(mark))
-    '''except FileNotFoundError:
-        try:
-            md = Markdown(readmd)
-            console.print(md)
-        except FileNotFoundError:
-            console.print('[bold red]The readme file does not exist at the current location, so is therefore unreadable. Try cd\'ing into the galact root directory.')
-'''
 
 
 parser_galact = subparsers.add_parser('run', help='Run galact on cli')
@@ -137,9 +130,3 @@ def main():
             console.print('\n[bold red]Exited Galact with the EOF key combo')
     except KeyboardInterrupt:
         console.print('\n[bold red]Exited Galact with the appropriate key combo')
-'''
-def sigint_handler(signal, frame):
-    console.print('[bold red]Exited Galact with key combo')
-    sys.exit(0)
-signal.signal(signal.SIGINT, sigint_handler)
-'''

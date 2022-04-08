@@ -85,10 +85,16 @@ def about():
 
 def readme():
     try:
-        md = Markdown(readmd)
-        console.print(md)
+        os.chdir(os.path.join(os.path.dirname(__file__)))
+        f = open('README.md', 'r')
+        mark = f.read()
+        console.print(Markdown(mark))
     except FileNotFoundError:
-        console.print('[bold red]The readme file does not exist at the current location, so is therefore unreadable. Try cd\'ing into the galact root directory.')
+        try:
+            md = Markdown(readmd)
+            console.print(md)
+        except FileNotFoundError:
+            console.print('[bold red]The readme file does not exist at the current location, so is therefore unreadable. Try cd\'ing into the galact root directory.')
 
 
 

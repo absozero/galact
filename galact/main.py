@@ -6,7 +6,6 @@ import argparse
 import sys
 import signal
 import rich
-from .readmd import *
 from .responses import RESPONSES
 from rich.console import Console
 from rich.progress import track
@@ -85,6 +84,9 @@ def about():
 
 def readme():
     try:
+        path = os.path.realpath(os.path.abspath(__file__))
+        read = path.replace('galact/main.py', 'README.md')
+        f = open(read, 'r')
         md = Markdown(readmd)
         console.print(md)
     except FileNotFoundError:

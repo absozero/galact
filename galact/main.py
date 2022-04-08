@@ -84,8 +84,8 @@ def about():
 
 def readme():
     try:
-        path = os.path.realpath(os.path.abspath(__file__))
-        read = path.replace('galact/main.py', 'README.md')
+        path = os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir))
+        read = path + '/README.md'
         f = open(read, 'r')
         md = Markdown(readmd)
         console.print(md)

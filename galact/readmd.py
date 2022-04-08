@@ -1,3 +1,4 @@
+readmd='''
 
 <div  id="top"></div>
 
@@ -464,3 +465,4 @@ I would like to acknowledge python and its standard library for this project, it
 ![GitHub top language](https://img.shields.io/github/languages/top/Absozero/Galact?style=for-the-badge)
 
 ![GitHub issues](https://img.shields.io/github/issues-raw/Absozero/Galact?style=for-the-badge)
+'''

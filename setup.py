@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'galact = galact.main:main',
+            'galact = galact.__main__:main',
         ],
     },
 )

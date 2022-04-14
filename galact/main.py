@@ -4,9 +4,6 @@ import time
 import random
 import argparse
 import sys
-import signal
-import rich
-from .readmd import readmd
 from .responses import RESPONSES
 from rich.console import Console
 from rich.progress import track
@@ -44,7 +41,8 @@ class Galact():
 
         # Local Variables here
 
-    def match(self, text):
+    @staticmethod
+    def match(text):
         for p, responses in RESPONSES.items():
             if re.search(p, text, re.IGNORECASE):
                 return re.sub(p, random.choice(responses), text)

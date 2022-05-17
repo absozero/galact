@@ -116,22 +116,11 @@ An awesome cli chatbot, soon to be on desktop and a gui.
 <!-- PROJECT LOGO -->
 
 <br  />
-
-<div  align="center">
-
-<a  href="https://github.com/absozero/galact">
-
-<img  src="logo.svg"  alt="Logo"  width="1280"  height="720">
-
-</a>
-
   
 
 <h3  align="center">Galact</h3>
-
-  
-
-<p  align="center">
+<div align="center">
+<p>
 
 An awesome cli chatbot, soon to be on desktop and a gui.
 
@@ -139,23 +128,16 @@ An awesome cli chatbot, soon to be on desktop and a gui.
 
 <a  href="https://absozero.github.io/galact"><strong>Explore the docs »</strong></a>
 
-<br  />
 
 <br  />
-
-·
 
 <a  href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-
-·
 
 <a  href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
 
 </p>
 
 </div>
-
->>>>>>> main
   
   
   
@@ -170,7 +152,7 @@ An awesome cli chatbot, soon to be on desktop and a gui.
 
 <li>
 
-<a  href="#about-the-project">About The Project</a>
+<a href="#about-the-project">About The Project</a>
 
 <ul>
 

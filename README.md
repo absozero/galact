@@ -6,7 +6,7 @@
 
 <a  href="https://github.com/absozero/galact">
 
-<img  src="logo.svg"  alt="Logo"  width="1280"  height="720">
+<img  src="logo.svg"  alt="Logo"  width="80%">
 
 </a>
 
@@ -105,10 +105,9 @@ An awesome cli chatbot, soon to be on desktop and a gui.
 <li>
 
 
-
 <a  href="#getting-started">Getting Started</a>
 
-<img  src="galact.svg"  alt="L"  width="1280"  height="720">
+<img  src="galact.svg"  alt="usage"  width="65%">
 
 <ul>
 
@@ -171,11 +170,16 @@ This project built with python, and the standard library modules.
 
 <p  align="right">(<a  href="#top">back to top</a>)</p>
 
-<img src="./galact.svg">
+  
+  
+  
 
 <!-- GETTING STARTED -->
 
 ## Getting Started
+
+![Galact](./galact.svg)
+
 Getting started with Galact is relatively easy, you, at this point, only need python and the repo.
   
 

@@ -1,27 +1,6 @@
 
 <div  id="top"></div>
 
-  
-  
-  
-
-[![Contributors][contributors-shield]][contributors-url]
-
-[![Forks][forks-shield]][forks-url]
-
-[![Stargazers][stars-shield]][stars-url]
-
-[![Issues][issues-shield]][issues-url]
-
-[![MIT License][license-shield]][license-url]
-
-  
-  
-  
-
-<!-- PROJECT LOGO -->
-
-<br  />
 
 <div  align="center">
 
@@ -31,9 +10,7 @@
 
 </a>
 
-  
-
-<h3  align="center">Galact</h3>
+<h2  align="center">Galact</h2>
 
   
 
@@ -47,22 +24,14 @@ An awesome cli chatbot, soon to be on desktop and a gui.
 
 <br  />
 
-<br  />
-
-·
-
 <a  href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
 
-·
 
 <a  href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
 
 </p>
 
 </div>
-
-<<<<<<< HEAD
-=======
 <div  id="top"></div>
 
 <!--
@@ -109,39 +78,10 @@ An awesome cli chatbot, soon to be on desktop and a gui.
 
 [![MIT License][license-shield]][license-url]
 
-  
-  
-  
-
-<!-- PROJECT LOGO -->
-
-<br  />
-  
-
-<h3  align="center">Galact</h3>
-<div align="center">
-<p>
-
-An awesome cli chatbot, soon to be on desktop and a gui.
-
-<br  />
-
-<a  href="https://absozero.github.io/galact"><strong>Explore the docs »</strong></a>
-
-
-<br  />
-
-<a  href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-
-<a  href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-
 </p>
 
 </div>
   
-  
-  
-
 <!-- TABLE OF CONTENTS -->
 
 <details>
@@ -164,7 +104,15 @@ An awesome cli chatbot, soon to be on desktop and a gui.
 
 <li>
 
+<a  href="https://github.com/absozero/galact">
+
+<img  src="galact.svg"  alt="sample"  width="1280"  height="720">
+
+</a>
+
 <a  href="#getting-started">Getting Started</a>
+
+<img  src="galact.svg"  alt="L"  width="1280"  height="720">
 
 <ul>
 

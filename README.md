@@ -104,11 +104,7 @@ An awesome cli chatbot, soon to be on desktop and a gui.
 
 <li>
 
-<a  href="https://github.com/absozero/galact">
 
-<img  src="galact.svg"  alt="sample"  width="1280"  height="720">
-
-</a>
 
 <a  href="#getting-started">Getting Started</a>
 
@@ -175,9 +171,7 @@ This project built with python, and the standard library modules.
 
 <p  align="right">(<a  href="#top">back to top</a>)</p>
 
-  
-  
-  
+<img src="./galact.svg">
 
 <!-- GETTING STARTED -->
 

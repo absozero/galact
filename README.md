@@ -67,6 +67,7 @@ An awesome cli chatbot, soon to be on desktop and a gui.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 
 -->
+[![Run on Repl.it](https://repl.it/badge/github/absozero/galact)](https://repl.it/github/absozero/galact)
 
 [![Contributors][contributors-shield]][contributors-url]
 

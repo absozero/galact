@@ -24,10 +24,10 @@ An awesome cli chatbot, soon to be on desktop and a gui.
 
 <br  />
 
-<a  href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+<a  href="https://github.com/absozero/galact/issues">Report Bug</a>
 
 
-<a  href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+<a  href="https://github.com/absozero/galact/issues">Request Feature</a>
 
 </p>
 
